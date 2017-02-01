@@ -1,0 +1,3 @@
+[submodule "MainLoop"]
+	path = MainLoop
+	url = https://github.com/IceCreamYou/MainLoop.js

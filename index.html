@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        canvas {
+            background: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <script type="text/javascript">
+        canvas = document.getElementById('gameCanvas');
+        context = canvas.getContext("2d");
+
+        canvas.width = window.innerWidth;
+        canvas.height = 600;
+
+    </script>
+
+</body>
+</html>
